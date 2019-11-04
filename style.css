@@ -1,0 +1,58 @@
+.box{
+    width: 750px;
+    height: 550px;
+    background: gray;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between; 
+}
+
+h1{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+h2{
+    visibility: hidden;
+    color: aqua;
+}
+
+img{
+    height: 180px;
+    width: 200px;
+    visibility: visible;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    text-decoration: black;
+    font-size: medium;
+    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange; 
+    border: none;
+}
+
+#winner{
+    color: red;
+    font-size: 45px;
+}
+#lost{
+    color: red;
+    font-size: 27px;
+}
+#refresh{
+    color: aqua;
+    font-size: 18px;
+}
+
+#roll{
+    color: aqua;
+    font-size: 18px;
+}
